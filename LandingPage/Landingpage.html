@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        header
+        {
+                    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url("waranont-joe-acJmkKwEMR4-unsplash.jpg");
+                    background-attachment: fixed;
+                    background-position: center;
+                    background-size: cover;
+                    height: 100vh;
+                    width: 100%;
+                    position: relative;
+        }
+        nav
+        {
+           
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content:space-between;
+            height:8vh;
+            h1 
+            {
+                color: white;
+                padding-left: 20px;
+                font-family: cursive;
+                padding-left: 40px;
+                font-size: 2em;
+                font-weight: bolder;
+            }
+            .mid 
+            {
+                margin-left: -130px;
+            }
+            .mid a
+            {
+               text-decoration: none;
+               padding-left: 20px;
+               padding-right: 40px;
+               font-size: 22px;
+               color: white;
+               position: relative;
+              
+            }
+            .mid a::before 
+            {
+              position: absolute;
+              top: 0;
+              left: 0;
+              content: '';
+              width:0%;
+              height: 100%;
+              border-bottom: 3px solid indianred;
+              transition: 0.5s;
+            }
+            .mid a:hover::before
+            {
+                width: 80%;
+            }
+        }
+        .quote
+        {
+     
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 4em;
+        }
+      .sign 
+      {
+        margin-right:40px;
+        padding-right: 20px;
+        a 
+        {
+            color: white;
+            text-decoration: none;
+            border: 2px solid indianred;
+            padding: 10px 16px;
+            font-size: 22px;
+            background-color: indianred;
+            transition: 0.4s;
+        }
+        a:hover 
+        {
+            background-color: transparent;
+            cursor: pointer;
+        }
+      }
+      #about 
+      {
+        
+      background: url("5026563.jpg");
+        height: 100vh;
+      }
+      #about>div 
+      {
+        padding-top: 100px;
+        
+        h1 
+        {
+            font-size: 3em;
+            padding-bottom: 50px;
+            
+        }
+        p 
+        {
+            font-size: 22px;
+        }
+        h2 
+        {
+           font-size: 28px;
+           padding-top: 40px;
+           padding-bottom: 20px;
+        }
+        h3 
+        {
+            font-size:22px;
+            text-align: start;
+        }
+      }
+      #about div
+      {
+        text-align: center;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        
+      
+      }
+    </style>
+</head>
+<body>
+        <header>
+
+                <nav>
+                    <div class="logo">
+                       <h1>Adventure Horizon</h1>
+                    </div>
+                    <div class="mid">
+                            <a href="#home">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#services">Services</a>
+                            <a href="#contact">Contact</a>
+                        </div>
+                        <div class="sign">   
+                            <a href="#signup" class="button">Sign Up</a>        
+                        </div>
+                    </nav>
+
+            <section>
+                <h1 class="quote">Discover the world, one journey at a time. Let us take you on an unforgettable adventure filled with wanderlust and wonder</h1>
+            </section>
+ 
+        </header>
+        <main>
+            <div id="about">
+            <div>
+                <h1>
+                    About
+                </h1>
+                <div>
+                 <p>
+                    At <b>Adventure Horizon</b>, we're passionate about crafting transformative travel experiences that inspire and empower our clients to explore the world with confidence. With years of expertise and a dedication to personalized service, we strive to exceed expectations and create lasting memories for every traveler.
+                 </p>
+            </div>
+          <div>
+                <h2>Why Choose Us</h2>
+ 
+                        <h3>Expertise:</h3>
+                        <p>Benefit from our years of experience and industry knowledge, ensuring a seamless and memorable journey.</p>
+      
+                        <h3>Personalized Service: </h3>
+                        <p>Your preferences are our priority. We tailor every itinerary to suit your unique needs and desires.</p>
+    
+                        <h3>Trust and Reliability: </h3>
+                        <p>Count on us for transparency, integrity, and reliability at every stage of your journey.</p>
+      
+                        <h3>Global Network:</h3>
+                        <p>Access exclusive deals, insider knowledge, and hidden gems worldwide through our extensive network of partners.</p>
+           
+        <div>
+                <h2>Our Promise</h2>
+                <p>
+                When you choose <b>Adventure Horizon</b>, you're choosing more than just a vacation; you're choosing an extraordinary adventure filled with discovery, joy, and unforgettable moments. Let us handle the details so you can focus on making memories that last a lifetime.
+                </p>
+
+        </div>
+
+        </div>
+        </main>
+
+    
+</body>
+</html>
